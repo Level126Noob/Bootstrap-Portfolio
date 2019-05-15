@@ -19,11 +19,34 @@ body {
   clear: both;
 }
 
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  position: sticky;
+  margin-top: 385px;
+}
+
 h1,
 h2,
 h3,
 p {
   margin-bottom: 20px;
+}
+
+.navbar-brand {
+  background-color: #4aaaa5;
+}
+
+.navbar-toggler-icon {
+  background-color: #4aaaa5;
+}
+
+.navbar {
+  background-color: white;
+}
+
+ul {
+  float: right;
 }
 
 p:last-child {
@@ -82,6 +105,7 @@ nav a:first-child {
 
 footer {
   text-align: center;
+  background-color: #4aaaa5;
 }
 
 h3, h2 {
@@ -94,19 +118,12 @@ h3, h2 {
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding-top: 50px;
   min-height: calc(100vh - 70px);
+  margin: 0 auto;
 }
 
-.main-section {
-  float: left;
-  width: 100%;
-  max-width: 960px;
-  padding: 30px;
-  margin: 0 0 40px;
-  background: #ffffff;
-  border: 1px solid #dddddd;
-}
+
 
 /* portfolio page */
 
@@ -188,4 +205,14 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+.main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #dddddd;
 }
