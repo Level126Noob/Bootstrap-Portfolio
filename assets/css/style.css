@@ -77,6 +77,9 @@ h3 {
   background: #4aaaa5;
 }
 
+li {
+  list-style: none;
+}
 nav a {
   display: inline-block;
   padding-left: 15px;
