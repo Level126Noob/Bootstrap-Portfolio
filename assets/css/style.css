@@ -25,7 +25,9 @@ body {
   position: sticky;
   margin-top: 385px;
 }
-
+li {
+  list-style: none;
+}
 h1,
 h2,
 h3,
@@ -43,10 +45,6 @@ p {
 
 .navbar {
   background-color: white;
-}
-
-ul {
-  float: right;
 }
 
 p:last-child {
