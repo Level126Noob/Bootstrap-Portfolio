@@ -19,6 +19,14 @@ body {
   clear: both;
 }
 
+.navbar-brand {
+  background-color: #4aaaa5;
+}
+
+.navbar {
+  background-color: #666666;
+}
+
 h1,
 h2,
 h3,
