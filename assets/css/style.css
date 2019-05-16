@@ -118,8 +118,11 @@ h3, h2 {
 
 #main-container {
   padding-top: 50px;
+  padding-bottom: 50px;
   min-height: calc(100vh - 70px);
   margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
 }
 
 .main-section {
