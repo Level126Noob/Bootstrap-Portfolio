@@ -30,7 +30,8 @@ body {
 
 footer {
   background-color: #666666;
-  border-top: 5px solid #4aaaa5
+  border-top: 5px solid #4aaaa5;
+  margin-top: 50px;
 }
 
 h1,
@@ -101,16 +102,11 @@ h3, h2 {
 
 #main-container {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   min-height: calc(100vh - 70px);
   margin: 0 auto;
   width: 100%;
   max-width: 960px;
-}
-
-.row {
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 .main-section {
@@ -129,7 +125,7 @@ h3, h2 {
   display: block;
   position: relative;
   float: left;
-  left: 16%;
+  left: 9vw;
   width: 274px;
   margin: 20px 0 20px;
   overflow: auto;
